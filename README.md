@@ -1,6 +1,6 @@
 # Proyek Backend Profile
 
-![Nuxt](https://nuxt.com/assets/design-kit/logo/icon-green.png) ![Laravel](https://laravel.com/img/logomark.min.svg)
+![Nuxt](https://nuxt.com/assets/design-kit/logo-green-black.svg) ![Laravel](https://laravel.com/img/logomark.min.svg)
 
 Ini adalah proyek backend profile yang dibangun dengan **Laravel** untuk backend dan **Nuxt** untuk frontend.
 
@@ -37,7 +37,6 @@ Untuk memulai dengan proyek ini, ikuti langkah-langkah berikut:
 
 ## Fitur
 
-- Autentikasi pengguna
 - Manajemen profil
 - Integrasi API
 
