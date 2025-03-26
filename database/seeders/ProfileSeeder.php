@@ -18,19 +18,21 @@ class ProfileSeeder extends Seeder
     {
         // Create profile
         $profile = Profile::create([
-            'name' => 'John Doe',
-            'job_title' => 'Software Developer',
-            'email' => 'john.doe@example.com',
-            'bio' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus est vitae tortor ullamcorper, ut vestibulum velit convallis. Aenean posuere risus non velit egestas suscipit. Nunc finibus vel ante id euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Aliquam erat volutpat. Nulla vulputate phasellus tellus, in luctus risus rhoncus id.',
-            'avatar' => '/assets/profile.jpg'
+            'name' => 'Abdul Kholik',
+            'job_title' => 'Pengembang Web',
+            'email' => 'engineertekno@gmail.com',
+            'bio' => 'Saya adalah pengembang Laravel Web Developer yang ahli dalam membangun aplikasi web dinamis dan skalabel. Menguasai HTML, CSS, JavaScript, PHP, serta Laravel untuk pengembangan back-end yang efisien dan ramah pengguna.',
+            'avatar' => 'img/fotoabdulkholik.jpg'
         ]);
 
         // Create skills
         $skills = [
-            'JavaScript',
-            'React',
-            'Node.js',
             'HTML/CSS',
+            'Javascript',
+            'PHP',
+            'Laravel',
+            'Nuxt',
+            'Node.js',
             'Tailwind CSS'
         ];
 
@@ -44,25 +46,18 @@ class ProfileSeeder extends Seeder
         // Create experiences
         $experiences = [
             [
-                'position' => 'Web Developer',
-                'company' => 'ABC Company',
+                'position' => 'Guru TKJ (Teknik Komputer dan Jaringan)',
+                'company' => 'SMK AL-AMIIN Sangkanhurip',
                 'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus est vitae tortor ullamcorper, ut vestibulum velit convallis. Aenean posuere risus non velit egestas suscipit.',
-                'start_year' => 2017,
-                'end_year' => 2019
+                'start_year' => 2023,
+                'end_year' => 'Sekarang'
             ],
             [
-                'position' => 'Web Developer',
-                'company' => 'ABC Company',
-                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus est vitae tortor ullamcorper, ut vestibulum velit convallis. Aenean posuere risus non velit egestas suscipit.',
-                'start_year' => 2017,
-                'end_year' => 2019
-            ],
-            [
-                'position' => 'Web Developer',
-                'company' => 'ABC Company',
-                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus est vitae tortor ullamcorper, ut vestibulum velit convallis. Aenean posuere risus non velit egestas suscipit.',
-                'start_year' => 2017,
-                'end_year' => 2019
+                'position' => 'IT Support Trainner',
+                'company' => 'CV Prianti Indonesia | ICONIX Software',
+                'description' => 'Saya sebagai IT Support dan Traineer untuk memberikan pelatihan pada dokter ataupun karyawan di sebuah klinik kesehatan, kecantikan dan gigi. Saya juga memperbaiki perangkat keras dan lunak yang ada di perusahan serta membantu programmer atau pengembang aplikasi yang ada di perusahaan.',
+                'start_year' => 2024,
+                'end_year' => 2024
             ]
         ];
 
@@ -79,11 +74,10 @@ class ProfileSeeder extends Seeder
 
         // Create social links
         $socialLinks = [
-            ['platform' => 'linkedin', 'url' => 'https://linkedin.com/in/johndoe'],
-            ['platform' => 'youtube', 'url' => 'https://youtube.com/johndoe'],
-            ['platform' => 'facebook', 'url' => 'https://facebook.com/johndoe'],
-            ['platform' => 'instagram', 'url' => 'https://instagram.com/johndoe'],
-            ['platform' => 'twitter', 'url' => 'https://twitter.com/johndoe']
+            ['platform' => 'Linkedin', 'url' => 'https://www.linkedin.com/in/abdul-kholik-67ab09274/'],
+            ['platform' => 'Instagram', 'url' => 'https://www.instagram.com/abdul_lambada/'],
+            ['platform' => 'Github', 'url' => 'https://github.com/abdul-lambada'],
+            ['platform' => 'Portofolio', 'url' => 'https://my-portofolio-amber-rho.vercel.app/'],
         ];
 
         foreach ($socialLinks as $link) {

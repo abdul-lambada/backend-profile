@@ -16,9 +16,9 @@ return new class extends Migration
             $table->foreignId('profile_id')->constrained()->onDelete('cascade');
             $table->string('position');
             $table->string('company');
-            $table->string('description')->nullable();
+            $table->text('description')->nullable();
             $table->integer('start_year');
-            $table->integer('end_year')->nullable();
+            $table->string('end_year')->nullable();
             $table->timestamps();
         });
     }
